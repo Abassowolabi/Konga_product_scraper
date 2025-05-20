@@ -1,6 +1,3 @@
-
----
-
 # Konga Products Crawler
 
 Welcome to the **Konga Products Crawler** — your reliable, splash-powered Scrapy spider that dives deep into Konga.com to extract product details across multiple categories with finesse and precision! 🚀✨
