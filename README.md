@@ -1,4 +1,3 @@
-Sure! Here's a clean, re-edited version of your README with the **snapshot images moved and formatted** in a way that works well and is commonly used — inside a dedicated **"Snapshots"** or **"Demo"** section near the end, right before Notes & Tips. Also, I fixed minor Markdown formatting and indentation issues for you:
 
 ---
 
@@ -18,15 +17,15 @@ The crawler is designed with care for reliability, featuring retry mechanisms, p
 
 ## 🎯 Features
 
-* **Splash integration** to render JS-heavy pages seamlessly.
-* Scrapes multiple categories sequentially with intelligent skip logic.
-* Pagination navigation with retry support on empty or failed pages.
-* Limits to 5 products per page for focused, quality data.
-* Extracts product title, price, URLs, and up to 3 unique images.
-* Custom downloader middleware rotating User-Agent from a list for stealth.
-* MongoDB pipeline with unique indexing and robust error handling.
-* Autothrottle and caching enabled to be gentle on servers.
-* Detailed logging at INFO and DEBUG levels for full visibility.
+* **Splash integration** to render JS-heavy pages seamlessly.  
+* Scrapes multiple categories sequentially with intelligent skip logic.  
+* Pagination navigation with retry support on empty or failed pages.  
+* Limits to 5 products per page for focused, quality data.  
+* Extracts product title, price, URLs, and up to 3 unique images.  
+* Custom downloader middleware rotating User-Agent from a list for stealth.  
+* MongoDB pipeline with unique indexing and robust error handling.  
+* Autothrottle and caching enabled to be gentle on servers.  
+* Detailed logging at INFO and DEBUG levels for full visibility.  
 
 ---
 
@@ -37,7 +36,7 @@ The crawler is designed with care for reliability, featuring retry mechanisms, p
    ```shell
    git clone https://github.com/yourusername/konga_products_crawler.git
    cd konga_products_crawler
-   ```
+````
 
 2. **Install dependencies**
 
@@ -163,14 +162,3 @@ Feel free to fork, improve, and submit pull requests! Whether it’s adding more
 MIT License — free to use, modify, and share
 
 ---
-
-### Notes
-
-* Make sure your image files **exactly match** these filenames including case:
-  `snapshots/konga_snapshot.PNG`
-  `snapshots/konga_snapshot+mongo.PNG`
-* If you want to avoid issues with the `+` sign in filenames, consider renaming it (e.g., `konga_snapshot_mongo.PNG`) and update the README accordingly.
-
----
-
-If you want me to help you with that rename or any other formatting, just say so!
